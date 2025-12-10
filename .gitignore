@@ -1,0 +1,15 @@
+# Build
+build/
+*.exe
+*.pdb
+*.obj
+*.o
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# PDF (not owned)
+*.pdf
