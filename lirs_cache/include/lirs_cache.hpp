@@ -54,8 +54,8 @@ protected:
   using Map = std::unordered_map<K, Entry>;
 
   std::size_t capacity_;
-  std::size_t lir_capacity_;
   std::size_t hir_capacity_;
+  std::size_t lir_capacity_;
   std::size_t lir_count_;
 
   List cache_;
